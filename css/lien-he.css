@@ -1,0 +1,51 @@
+.map {
+    min-height: 25rem;
+    margin-bottom: 3.75rem;
+}
+.form-control {
+    border-color: #7c7c7c66;
+}
+.col-form-label {
+    padding-right: 0;
+    font-size: 14px;
+    font-family: Regular;
+    color: #b7b7b7;
+}
+.give {
+    padding: 7px 30px;
+    background: #000;
+    margin-right: 0.75rem;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Regular;
+    font-size: 14px;
+}
+.logo {
+    display: block;
+}
+.info > span {
+    display: block;
+    font-family: Regular;
+    font-size: 14px;
+    color: #b7b7b7;
+}
+.info > span .fas {
+    margin-right: 0.3rem;
+}
+.phone-own .fa-phone {
+    transform: rotateY(-180deg);
+}
+h5 {
+    text-transform: uppercase;
+    color: #b7b7b7;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    color: #b7b7b7;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="css/san-pham.css">
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-4 row2">
+                        <div class="column">
+                            <img class="demo cursor" src="img/pro1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/pro1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/pro1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/pro1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/pro1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                        </div>   
+                        <div class="arrow">
+                            <a class="prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="next" onclick="plusSlides(1)">❯</a>
+                        </div> 
+                    </div>
+                    <div class="col-md-8">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="img/pro1.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="img/pro1.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="img/pro1.jpg" style="width:100%">
+                        </div>
+                            
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="img/pro1.jpg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="img/pro1.jpg" style="width:100%">
+                        </div>
+                            
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="img/pro1.jpg" style="width:100%">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                    <h4>liên hệ</h4>
+                    <span class="add-detail"><i class="fas fa-map-marker-alt"></i>Tầng 4, Toà nhà Hanoi Group Số 442 Đội Cấn, P.Cổng Vị, Q.Ba Đình, Hà Nội</span>
+                    <span class="phone1"><i class="fas fa-blender-phone"></i>(04) 6674 2332</span>
+                    <span class="phone"><i class="fas fa-blender-phone"></i>(04) 37868904</span>
+                    <span class="phone"><i class="fas fa-blender-phone"></i>(04) 6680 9686</span>
+                    <span class="email"><i class="fas fa-envelope"></i> Support@bizweb.vn</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+</body>
+</html>

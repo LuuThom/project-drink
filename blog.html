@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/private-header.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+  <body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm">
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tài khoản của tôi</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Account 1</a>
+                                <a class="dropdown-item" href="#">Acount 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trạng thái đơn hàng</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Đã thanh toán</a>
+                                <a class="dropdown-item" href="#">Chờ xác nhận</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danh sách ưa thích</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Rượu vang</a>
+                                <a class="dropdown-item" href="#">Rượu nhập khẩu</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Giỏ hàng</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Sản phẩm</a>
+                                <a class="dropdown-item" href="#">Đã thanh toán</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Đăng nhập</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Account 1</a>
+                                <a class="dropdown-item" href="#">Acount 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Đăng ký</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control" type="text" placeholder="Tìm kiếm ở đây">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span><i class="fas fa-search"></i></span></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <h1 class="logo">
+            <a href="#"><img src="img/logo.png" alt="Drink"></a>
+        </h1>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Rượu vang đỏ</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <ul class="nav-item-child">
+                            <h3>Rượu ngoại</h3>
+                            <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                            <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                            <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                            <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                            <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                            <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                        </ul>
+                        <ul class="nav-item-child">
+                            <h3>Rượu Vang</h3>
+                            <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                            <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                            <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                            <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                            <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                            <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                        </ul>
+                        <ul class="nav-item-child">
+                            <h3>Rượu ngoại</h3>
+                            <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                            <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                            <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                            <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                            <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                            <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                        </ul>
+                        <div class="nav-item-img"><a href="#"><img src="Image_ruou/Depositphotos_30.jpg" alt=""></a></div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Rượu vang đỏ</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <ul class="nav-item-child">
+                            <h3>Rượu ngoại</h3>
+                            <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                            <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                            <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                            <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                            <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                            <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                        </ul>
+                        <ul class="nav-item-child">
+                            <h3>Rượu Vang</h3>
+                            <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                            <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                            <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                            <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                            <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                            <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                        </ul>
+                        <ul class="nav-item-child">
+                            <h3>Rượu ngoại</h3>
+                            <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                            <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                            <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                            <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                            <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                            <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                        </ul>
+                        <div class="nav-item-img"><a href="#"><img src="Image_ruou/Depositphotos_30.jpg" alt=""></a></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CHAMPAGNE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">thông tin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+    <section class="menu">
+        <div class="container">
+             <nav class="navbar navbar-expand-sm">
+                 <h1 class="logo">
+                     <a href="#"><img src="img/logo.png" alt="Drink"></a>
+                 </h1>
+                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                     aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="collapsibleNavId">
+                     <ul class="navbar-nav mt-2 mt-lg-0">
+                         <li class="nav-item active">
+                             <a class="nav-link" href="#">Trang chủ</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Rượu vang đỏ</a>
+                             <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                 <ul class="nav-item-child">
+                                     <h3>Rượu ngoại</h3>
+                                     <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                                     <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                                     <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                                     <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                                     <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                                     <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                                 </ul>
+                                 <ul class="nav-item-child">
+                                     <h3>Rượu Vang</h3>
+                                     <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                                     <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                                     <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                                     <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                                     <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                                     <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                                 </ul>
+                                 <ul class="nav-item-child">
+                                     <h3>Rượu ngoại</h3>
+                                     <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                                     <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                                     <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                                     <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                                     <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                                     <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                                 </ul>
+                                 <div class="nav-item-img"><a href="#"><img src="Image_ruou/Depositphotos_30.jpg" alt=""></a></div>
+                             </div>
+                         </li>
+                         <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Rượu trắng</a>
+                             <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                 <ul class="nav-item-child">
+                                     <h3>Rượu ngoại</h3>
+                                     <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                                     <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                                     <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                                     <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                                     <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                                     <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                                 </ul>
+                                 <ul class="nav-item-child">
+                                     <h3>Rượu Vang</h3>
+                                     <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                                     <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                                     <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                                     <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                                     <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                                     <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                                 </ul>
+                                 <ul class="nav-item-child">
+                                     <h3>Rượu ngoại</h3>
+                                     <li class="list-item"><a href="#">Rượu Chivas</a></li>
+                                     <li class="list-item"><a href="#">Hàng độc - Rượu độc đáo</a></li>
+                                     <li class="list-item"><a href="#">Jonhnnie Walker</a></li>
+                                     <li class="list-item"><a href="#">Rượu Whisky</a></li>
+                                     <li class="list-item"><a href="#">Rượu Remy Martin</a></li>
+                                     <li class="list-item"><a href="#">Rượu Glenmorangie</a></li>
+                                 </ul>
+                                 <div class="nav-item-img"><a href="#"><img src="Image_ruou/Depositphotos_30.jpg" alt=""></a></div>
+                             </div>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">CHAMPAGNE</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">thông tin</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">blog</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="#">liên hệ</a>
+                         </li>
+                     </ul>
+                 </div>
+             </nav>
+        </div>
+    </section>
+    <section class="new-blog">
+        <div class="container">
+            <div class="path">
+                <span class="father"><a href="home.html">Trang chủ</a></span>
+                <span class="limit"></span>
+                <span><a href="blog.html">Blog</a></span>
+            </div>
+            <h2>blog</h2>
+            <div class="row">
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 card border-0">
+                    <a href="#"><img class="card-img-top" src="img/wine8.jpg" alt="wine"></a>
+                    <div class="card-body ">
+                        <h3 class="card-title">vang thăng long classic</h3>
+                        <div class="new-author">
+                            <span class="name">Đăng bởi Giangle </span> <span class="date">30/06/2015</span><span>60 </span><span>bình luận</span>
+                        </div>
+                        <p class="new-content">Vang nổ thăng long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ Thăng Long tạo cảm giác hưng phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="donor">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 donor-item">
+                    <img class="donor-img" src="img/logo-1.jpg" alt="">
+                </div>
+                <div class="col-md-4 donor-item">
+                    <img class="donor-img" src="img/logo-2.jpg" alt="">
+                </div>
+                <div class="col-md-4 donor-item border-right-0">
+                    <img class="donor-img" src="img/logo-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-information">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h4>thông tin</h4>
+                    <ul>
+                        <li><a href="#">về chúng tôi</a></li>
+                        <li><a href="#">giao hàng</a></li>
+                        <li><a href="#">cảm nghĩ</a></li>
+                        <li><a href="#">lưu trữ</a></li>
+                        <li><a href="#">chính sách riêng tư</a></li>                 
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>mua hàng</h4>
+                    <ul>
+                        <li><a href="#">vận chuyển và trả hàng</a></li>
+                        <li><a href="#">mua hàng an toàn</a></li>
+                        <li><a href="#">vận chuyển quốc tế</a></li>
+                        <li><a href="#">liên kết</a></li>
+                        <li><a href="#">dịch vụ giảm giá</a></li>                 
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>gửi email</h4>
+                    <p>Gửi email cho chúng tôi để được hỗ trợ</p>
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter your email">
+                            <input type="submit" value="GỬI">
+                        </div>
+                    </form>
+                    <div class="icon">
+                        <span><i class="fab fa-twitter"></i></span>
+                        <span><i class="fab fa-google-plus-g"></i></span>
+                        <span></span><i class="fas fa-wifi"></i>
+                        <span><i class="fab fa-linkedin-in"></i></span>
+                        <span><i class="fas fa-wifi"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4>liên hệ</h4>
+                    <span>Tầng 4, Toàn nhà Hanoi Group Số 442 Đội Cấn, P.Cổng Vị, Q.Ba Đình, Hà Nội</span>
+                    <span class="phone">(04) 6674 2332 - </span>
+                    <span class="phone">(04) 37868904</span>
+                    <span class="phone">(04) 6680 9686</span>
+                    <span class="email">Support@bizweb.vn</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-6">
+                    <span><i class="far fa-copyright"></i>Copyright 2008-2014 DKT Technology JSC</span>
+                </div>
+                <div class="col-md-4 col-6">
+                    <span><i class="fab fa-cc-mastercard"></i></span>
+                    <span><i class="fab fa-cc-visa"></i></span>
+                    <span><i class="fab fa-cc-paypal"></i></span>
+                    <span><i class="fab fa-cc-mastercard"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

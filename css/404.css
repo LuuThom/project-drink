@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 
+}
+.main {
+    background: #e6ae48;
+    max-height: 20rem;
+    margin-top: 15rem;
+    position: relative;
+}
+.text {
+    width: 39%;
+    position: absolute;
+    top: 7rem;
+    font-size: 1.5rem;
+    right: 18rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    z-index: 10;
+    padding-left: 8rem;
+    background: #e6ae48;
+}
+.text .p1 {
+    text-transform: uppercase;
+    color: #755723;
+    margin: 0;
+}
+.text .p2 {
+    font-style: italic;
+    margin: 0;
+}
+._404 {
+    font-size: 30rem;
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    top: -14.5rem;
+    color: #fff;
+    right: 70px;
+    letter-spacing: -15px;
+}
+img.text-error {
+    position: absolute;
+    top: 0.2rem;
+    left: 22rem;
+    width: 16%;
+    z-index: 15;
+}
+img.wine-error {
+    margin-top: -11.6rem;
+    width: 35%;
+}
+.menu-error {
+    width: 50%;
+    margin: auto;
+}
+.navbar {
+    width: 57%;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+}
+.nav-link {
+    color: black;
+    text-decoration: underline;
+}
+.logo-404 {
+    padding-left: 53px;
+}
+.control-404 {
+    position: relative;
+}
+.search-404 {
+    position: absolute;
+    left: .7rem;
+}
